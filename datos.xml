@@ -3,48 +3,68 @@
 <!-- Aqui Enumeramos los Yokais con nombre tribu y rango -->
 
 <datos>
-    <Yokai>
-        <nombre>Jibanyan</nombre>
-        <tribu>amable</tribu>
-        <rango>D</rango>
-        <numero medalium="1">093</numero>
-        <numero medallium="2">093</numero>
-        <numero medallium="3">243</numero>
-        <descripcion></descripcion>
-    </Yokai>
-    <Yokai>
-        <nombre>Venocto</nombre>
-        <tribu>Escurridiza</tribu>
-        <rango>S</rango>
-        <numero medallium="1">212</numero>
-        <numero medallium="2">320</numero>
-        <numero medallium="3">570</numero>
-        <descripcion></descripcion>
-    </Yokai>
-    <Yokai>
-        <nombre>Demoniorco</nombre>
-        <tribu>Robusto</tribu>
-        <rango>S</rango>
-        <numero medallium="1">245</numero>
-        <numero medallium="2">429</numero>
-        <numero medallium="3">204</numero>
-        <descripcion></descripcion>
-    </Yokai>
-    <Yokai>
-        <nombre>Shogunyan</nombre>
-        <tribu>Valiente</tribu>
-        <rango>S</rango>
-        <numero medallium="1">214</numero>
-        <numero medallium="2">322</numero>
-        <numero medallium="3">608</numero>
-        <descripcion></descripcion>
-    </Yokai>
-    <Yokai>
-        <nombre>Komashura</nombre>
-        <tribu>Valiente</tribu>
-        <rango>S</rango>
-        <numero medallium="1">215</numero>
-        <numero medallium="2">323</numero>
-        <numero medallium="3">609</numero>
-        <descripcion></descripcion>
-    </Yokai>
+
+    <juego id="J01">
+    <nombre>Yokai Watch</nombre>
+    <lanzamiento>2013</lanzamiento>
+    <precio moneda="EUR">12.00</precio>
+    <descripcion></descripcion>
+  </juego>
+
+    <juego id="J02">
+    <nombre>Yokai Watch 2: Carnanimas</nombre>
+    <lanzamiento>2014</lanzamiento>
+    <precio moneda="EUR">15.00</precio>
+    <descripcion></descripcion>
+  </juego>
+
+  <juego id="J03">
+    <nombre>Yokai Watch 2: Fantaesqueletos</nombre>
+    <lanzamiento>2014</lanzamiento>
+    <precio moneda="EUR">18.00</precio>
+    <descripcion></descripcion>
+  </juego>
+
+  <juego id="J04">
+    <nombre>Yokai Watch 2: Mentespectros</nombre>
+    <lanzamiento>2014</lanzamiento>
+    <precio moneda="EUR">25.00</precio>
+    <descripcion></descripcion>
+  </juego>
+
+  <juego id="J04">
+    <nombre>Yokai Watch Blasters: Liga del gato</nombre>
+    <lanzamiento>2015</lanzamiento>
+    <precio moneda="EUR">30.00</precio>
+    <descripcion></descripcion>
+  </juego>
+
+  <juego id="J04">
+    <nombre>Yokai Watch Blasters: Liga del perro</nombre>
+    <lanzamiento>2015</lanzamiento>
+    <precio moneda="EUR">30.00</precio>
+    <descripcion></descripcion>
+  </juego>
+
+  <juego id="J05">
+    <nombre>Yokai Watch 3</nombre>
+    <lanzamiento>2016</lanzamiento>
+    <precio moneda="EUR">180.00</precio>
+    <descripcion></descripcion>
+  </juego>
+
+  <juego id="J06">
+    <nombre>Yokai Watch 4</nombre>
+    <lanzamiento>2019</lanzamiento>
+    <precio moneda="EUR">59.99</precio>
+    <descripcion></descripcion>
+    <destacado/>
+  </juego>
+
+  <juego id="J07">
+    <nombre>Yokai Watch 4++</nombre>
+    <lanzamiento>2020</lanzamiento>
+    <precio moneda="EUR">67.86</precio>
+    <descripcion></descripcion>
+  </juego>
+   
