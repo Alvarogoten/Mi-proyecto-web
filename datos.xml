@@ -2,7 +2,7 @@
 
 <!-- Aqui Enumeramos los Yokais con nombre tribu y rango -->
 
-<datos>
+<datos_juegos propietario="Alvarogoten">
 
     <juego id="J01">
     <nombre>Yokai Watch</nombre>
@@ -66,4 +66,4 @@
     <precio moneda="EUR">67.86</precio>
     <descripcion></descripcion>
   </juego>
-</datos>
+</datos_juegos>
