@@ -19,3 +19,11 @@ En esta primera fase del proyecto integrador, he planificado y ejecutado con éx
 1. **Declaración del tipo de documento (`<!DOCTYPE html>`) y elemento raíz (`<html>`)**: Especificación estándar de HTML5 con el idioma configurado en castellano (`lang="es"`).
 2. **Metadatos de cabecera (`<head>`)**: Inclusión de codificación UTF-8, adaptación a dispositivos móviles con `viewport` y metadatos SEO (`description`, `keywords`, `author`).
 3. **Estructura semántica en bloques (`div`) y jerarquía de títulos**: Organización del contenido mediante secciones anidadas con comentarios descriptivos y una jerarquía lógica de títulos (`h1`, `h2`, `h3`).
+
+## Mapa del sitio
+| Fichero | title | Qué contiene |
+| :--- | :--- | :--- |
+| `index.html` | Inicio \| Yo-kai Watch · Álvaro Gil Reyes | Portada: presentación, sinopsis y cabecera general. |
+| `juegos.html` | Juegos \| Yo-kai Watch · Álvaro Gil Reyes | Catálogo completo de videojuegos basado en `datos.xml`. |
+| `historia.html` | Historia \| Yo-kai Watch · Álvaro Gil Reyes | Origen, lore y mitología de los Yo-kai principales. |
+| `contacto.html` | Contacto \| Yo-kai Watch · Álvaro Gil Reyes | Informacion del creador, redes y Repositorio github |
