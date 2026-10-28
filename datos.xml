@@ -32,35 +32,35 @@
     <descripcion></descripcion>
   </juego>
 
-  <juego id="J04">
+  <juego id="J05">
     <nombre>Yokai Watch Blasters: Liga del gato</nombre>
     <lanzamiento>2015</lanzamiento>
-    <precio moneda="EUR">30.00</precio>
+    <precio moneda="EUR">12.00</precio>
     <descripcion></descripcion>
   </juego>
 
-  <juego id="J04">
+  <juego id="J06">
     <nombre>Yokai Watch Blasters: Liga del perro</nombre>
     <lanzamiento>2015</lanzamiento>
     <precio moneda="EUR">30.00</precio>
     <descripcion></descripcion>
   </juego>
 
-  <juego id="J05">
+  <juego id="J07">
     <nombre>Yokai Watch 3</nombre>
     <lanzamiento>2016</lanzamiento>
     <precio moneda="EUR">180.00</precio>
     <descripcion></descripcion>
   </juego>
 
-  <juego id="J06">
+  <juego id="J08">
     <nombre>Yokai Watch 4</nombre>
     <lanzamiento>2019</lanzamiento>
     <precio moneda="EUR">59.99</precio>
     <descripcion></descripcion>
   </juego>
 
-  <juego id="J07">
+  <juego id="J09">
     <nombre>Yokai Watch 4++</nombre>
     <lanzamiento>2020</lanzamiento>
     <precio moneda="EUR">67.86</precio>
