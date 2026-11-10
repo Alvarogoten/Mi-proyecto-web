@@ -28,3 +28,5 @@ En esta primera fase del proyecto integrador, he planificado y ejecutado con éx
 | `historia.html` | Historia \| Yo-kai Watch · Álvaro Gil Reyes | Origen, lore y mitología de los Yo-kai principales. |
 | `contacto.html` | Contacto \| Yo-kai Watch · Álvaro Gil Reyes | Informacion del creador y Repositorio github |
 
+## UD5 · Tablas y formularios
+En la tabla de la página de juegos incluiremos un listado detallado de los Yo-Kai (número, nombre, tribu, rango y comida favorita). El formulario en `contacto.html` servirá para que los fans de Yo-Kai Watch envíen sus datos de inscripción y dudas.
