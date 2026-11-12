@@ -26,7 +26,84 @@
                 <li><strong>Número de contacto:</strong> 692 813 937</li>
             </ul>
         </div>
+<main>
+        <div>
+            <form action="#" method="post">
+                
+                <fieldset>
+                    <legend>Tus datos</legend>
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required autofocus placeholder="Ej. Nathan Adams" minlength="3" maxlength="30">
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="correo@example.com">
 
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="600123456">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tu consulta</legend>
+
+                    <label for="asunto">Motivo de contacto:</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="duda">Duda sobre el juego</option>
+                        <option value="intercambio">Intercambio de Medallas</option>
+                        <option value="evento">Inscripción a torneo</option>
+                        <option value="otro">Otro motivo</option>
+                    </select>
+
+                    <p>¿Qué consolas usas?</p>
+                    <input type="checkbox" id="c_3ds" name="consola" value="3ds" checked>
+                    <label for="c_3ds">Nintendo 3DS</label>
+                    
+                    <input type="checkbox" id="c_switch" name="consola" value="switch">
+                    <label for="c_switch">Nintendo Switch</label>
+                    
+                    <input type="checkbox" id="c_mobile" name="consola" value="mobile">
+                    <label for="c_mobile">Móvil</label>
+
+                    <p>¿Cuál es tu juego favorito?</p>
+                    <input type="radio" id="j1" name="juego_fav" value="yokai1">
+                    <label for="j1">Yo-Kai Watch 1</label>
+                    
+                    <input type="radio" id="j2" name="juego_fav" value="yokai2" checked>
+                    <label for="j2">Yo-Kai Watch 2: Carnanimas</label>
+
+                    <input type="radio" id="j3" name="juego_fav" value="yokai3">
+                    <label for="j3">Yo-Kai Watch 2: Fantaesqueletos</label>
+
+                    <input type="radio" id="j4" name="juego_fav" value="yokai4">
+                    <label for="j4">Yo-Kai Watch 2: Mentespectros</label>
+
+                    <input type="radio" id="j5" name="juego_fav" value="yokai5">
+                    <label for="j5">Yo-kai Watch Blasters: Liga del gato</label>
+
+                    <input type="radio" id="j6" name="juego_fav" value="yokai6">
+                    <label for="j6">Yo-kai Watch Blasters: Liga del perro</label>
+
+                    <input type="radio" id="j7" name="juego_fav" value="yokai7">
+                    <label for="j7">Yo-Kai Watch 3</label>
+
+                    <input type="radio" id="j8" name="juego_fav" value="yokai8">
+                    <label for="j8">Yo-Kai Watch 4</label>
+                    <hr>
+                    <!-- Control 4: textarea -->
+                    <label for="mensaje">Comentarios:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe aquí tu consulta detallada..."></textarea>
+                </fieldset>
+
+                <!-- Control 8: botones submit y reset -->
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Reiniciar</button>
+                </div>
+
+            </form>
+        </div>
+    </main>
     <hr>
 
     <div>
