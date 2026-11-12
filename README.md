@@ -30,3 +30,6 @@ En esta primera fase del proyecto integrador, he planificado y ejecutado con éx
 
 ## UD5 · Tablas y formularios
 En la tabla de la página de juegos incluiremos un listado detallado de los Yo-Kai (número, nombre, tribu, rango y comida favorita). El formulario en `contacto.html` servirá para que los fans de Yo-Kai Watch envíen sus datos de inscripción y dudas.
+
+Prueba de"<form action="#" method="get">"
+http://127.0.0.1:5500/contacto.html?nombre=Alvaro&email=alvarogilreyes14%40gmail.com&telefono=692813937&asunto=duda&consola=switch&juego_fav=yokai4&mensaje=Prueba#
