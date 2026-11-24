@@ -46,3 +46,11 @@ http://127.0.0.1:5500/contacto.html?nombre=Alvaro&email=alvarogilreyes14%40gmail
 - **Validación y atributos:** Uso de `required`, `placeholder`, `min`, `max`, `step`, `autofocus` y patrón de validación `pattern="[0-9]{9}"` con `title` explícito para el teléfono.
 - **Asociación de etiquetas:** Enlace explícito de cada control con su respectiva `<label for="...">`.
 - **Controles de estado:** Incorporación de elementos `<progress>` (estado del envío) y `<meter>` (grado de afinidad con la saga).
+
+### 3. Contenido Multimedia e Interactivo
+- **Imágenes semánticas:** Agrupación de imágenes con `<figure>` y sus descripciones en `<figcaption>`.
+- **Preguntas Frecuentes (FAQ):** Sección interactiva con `<details>` y `<summary>`, una de ellas desplegada por defecto (`open`) e incluyendo entidades HTML (`&lt;` y `&gt;`).
+- **Elementos de Audio y Vídeo:**
+  - Audio con la intro oficial en `media/intro.mp3`.
+  - Vídeo HTML5 local con tráiler del nuevo juego en `media/trailer.mp4` (`controls`, `poster` y múltiples fuentes `<source>`).
+  - Vídeo de YouTube integrado mediante `<iframe>`.
