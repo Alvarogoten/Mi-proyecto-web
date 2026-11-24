@@ -33,3 +33,16 @@ En la tabla de la página de juegos incluiremos un listado detallado de los Yo-K
 
 Prueba de"<form action="#" method="get">"
 http://127.0.0.1:5500/contacto.html?nombre=Alvaro&email=alvarogilreyes14%40gmail.com&telefono=692813937&asunto=duda&consola=switch&juego_fav=yokai4&mensaje=Prueba#
+
+## UD6 · Estructura semántica, Formularios HTML5 e Interactividad
+
+### 1. Estructura Semántica HTML5
+- Organización del sitio con etiquetas semánticas globales: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>` y `<footer>`.
+- Inclusión del metadato de autoría (`<meta name="author" content="alvarogoten">`) y firma personalizada en el pie de página (`<footer>`) de todas las páginas del sitio.
+- Sustitución de etiquetas de maquetación obsoletas y `<div>` de estilo por elementos puramente semánticos.
+
+### 2. Formulario HTML5 Avanzado (`contacto.html`)
+- **Inputs utilizados:** `text`, `email`, `tel`, `date`, `number` y `range`.
+- **Validación y atributos:** Uso de `required`, `placeholder`, `min`, `max`, `step`, `autofocus` y patrón de validación `pattern="[0-9]{9}"` con `title` explícito para el teléfono.
+- **Asociación de etiquetas:** Enlace explícito de cada control con su respectiva `<label for="...">`.
+- **Controles de estado:** Incorporación de elementos `<progress>` (estado del envío) y `<meter>` (grado de afinidad con la saga).
