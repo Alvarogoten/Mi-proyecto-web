@@ -23,24 +23,62 @@
                 <li><strong>Número de contacto:</strong> 692 813 937</li>
             </ul>
 <main>
-            <form action="#" method="post">
+    <!-- Indicadores interactivos (progress y meter) -->
+    <section>
+        <h3>Estado del formulario</h3>
+        <p>
+            <label for="progreso-form">Progreso del envío:</label>
+            <progress id="progreso-form" value="100" max="100">100%</progress>
+        </p>
+        <p>
+            <label for="afinidad">Afinidad con Yo-kai Watch:</label>
+            <meter id="afinidad" min="0" max="10" value="8" low="3" high="7" optimum="10">8 de 10</meter>
+        </p>
+    </section>
+
+    <!-- Formulario HTML5 completo -->
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            
+            <fieldset>
+                <legend>Tus datos</legend>
                 
-                <fieldset>
-                    <legend>Tus datos</legend>
-                    
+                <p>
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required autofocus placeholder="Ej. Nathan Adams" minlength="3" maxlength="30">
-                    
+                </p>
+                
+                <p>
                     <label for="email">Correo electrónico:</label>
                     <input type="email" id="email" name="email" required placeholder="correo@example.com">
+                </p>
 
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="600123456">
-                </fieldset>
+                <p>
+                    <label for="telefono">Teléfono (9 dígitos):</label>
+                    <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{9}" title="Debe contener exactamente 9 números sin espacios ni guiones (ej. 600123456)" placeholder="600123456">
+                </p>
 
-                <fieldset>
-                    <legend>Tu consulta</legend>
+                <p>
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha" required min="1950-01-01" max="2026-12-31">
+                </p>
 
+                <p>
+                    <label for="medallas">¿Cuántos años llevas conociendo yo-kai watch?:</label>
+                    <input type="number" id="medallas" name="medallas" min="0" max="500" step="1" value="0">
+                </p>
+
+                <p>
+                    <label for="satisfaccion">Nivel de fanatismo por Yo-kai Watch (1 al 10):</label>
+                    <input type="range" id="satisfaccion" name="satisfaccion" min="1" max="10" step="1" value="5">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tu consulta</legend>
+
+                <p>
                     <label for="asunto">Motivo de contacto:</label>
                     <select id="asunto" name="asunto" required>
                         <option value="" disabled selected>Selecciona una opción</option>
@@ -49,8 +87,10 @@
                         <option value="evento">Inscripción a torneo</option>
                         <option value="otro">Otro motivo</option>
                     </select>
+                </p>
 
-                    <p>¿Qué consolas usas?</p>
+                <p>¿Qué consolas usas?</p>
+                <p>
                     <input type="checkbox" id="c_3ds" name="consola" value="3ds" checked>
                     <label for="c_3ds">Nintendo 3DS</label>
                     
@@ -59,43 +99,49 @@
                     
                     <input type="checkbox" id="c_mobile" name="consola" value="mobile">
                     <label for="c_mobile">Móvil</label>
+                </p>
 
-                    <p>¿Cuál es tu juego favorito?</p>
+                <p>¿Cuál es tu juego favorito?</p>
+                <p>
                     <input type="radio" id="j1" name="juego_fav" value="yokai1">
-                    <label for="j1">Yo-Kai Watch 1</label>
+                    <label for="j1">Yo-Kai Watch 1</label><br>
                     
                     <input type="radio" id="j2" name="juego_fav" value="yokai2" checked>
-                    <label for="j2">Yo-Kai Watch 2: Carnanimas</label>
+                    <label for="j2">Yo-Kai Watch 2: Carnánimas</label><br>
 
                     <input type="radio" id="j3" name="juego_fav" value="yokai3">
-                    <label for="j3">Yo-Kai Watch 2: Fantaesqueletos</label>
+                    <label for="j3">Yo-Kai Watch 2: Fantasqueletos</label><br>
 
                     <input type="radio" id="j4" name="juego_fav" value="yokai4">
-                    <label for="j4">Yo-Kai Watch 2: Mentespectros</label>
+                    <label for="j4">Yo-Kai Watch 2: Mentespectros</label><br>
 
                     <input type="radio" id="j5" name="juego_fav" value="yokai5">
-                    <label for="j5">Yo-kai Watch Blasters: Liga del gato</label>
+                    <label for="j5">Yo-kai Watch Blasters: Liga del gato</label><br>
 
                     <input type="radio" id="j6" name="juego_fav" value="yokai6">
-                    <label for="j6">Yo-kai Watch Blasters: Liga del perro</label>
+                    <label for="j6">Yo-kai Watch Blasters: Liga del perro</label><br>
 
                     <input type="radio" id="j7" name="juego_fav" value="yokai7">
-                    <label for="j7">Yo-Kai Watch 3</label>
+                    <label for="j7">Yo-Kai Watch 3</label><br>
 
                     <input type="radio" id="j8" name="juego_fav" value="yokai8">
                     <label for="j8">Yo-Kai Watch 4</label>
-                    <hr>
-                    <!-- Control 4: textarea -->
-                    <label for="mensaje">Comentarios:</label>
+                </p>
+
+                <p>
+                    <label for="mensaje">Comentarios:</label><br>
                     <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe aquí tu consulta detallada..."></textarea>
-                </fieldset>
+                </p>
+            </fieldset>
 
-                <!-- Control 8: botones submit y reset -->
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Reiniciar</button>
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Reiniciar</button>
+            </p>
 
-            </form>
-    </main>
+        </form>
+    </section>
+</main>
     <hr>
 
     <footer>
